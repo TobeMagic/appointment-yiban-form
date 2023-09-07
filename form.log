@@ -1,0 +1,101 @@
+2023-09-07 15:12:31,847 - DEBUG - Using proactor: IocpProactor
+2023-09-07 15:12:35,492 - INFO - 304 GET / (192.168.21.125) 2.00ms
+2023-09-07 15:12:35,691 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 0.00ms
+2023-09-07 15:12:35,691 - DEBUG - WebSocket opened
+2023-09-07 15:12:35,694 - DEBUG - session id: lAbF5OPU0NslKKgNLUMkpzeX
+2023-09-07 15:14:46,340 - DEBUG - WebSocket closed
+2023-09-07 15:16:59,957 - DEBUG - Using proactor: IocpProactor
+2023-09-07 15:17:06,430 - INFO - 304 GET / (192.168.21.125) 2.00ms
+2023-09-07 15:17:06,604 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:17:06,605 - DEBUG - WebSocket opened
+2023-09-07 15:17:06,608 - DEBUG - session id: apuUGLO8tEuhit8zmzKp2So7
+2023-09-07 15:17:21,595 - INFO - 304 GET / (192.168.21.125) 1.00ms
+2023-09-07 15:17:21,600 - DEBUG - WebSocket closed
+2023-09-07 15:17:21,932 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:17:21,933 - DEBUG - WebSocket opened
+2023-09-07 15:17:21,934 - DEBUG - session id: UILkj3c5QOBlscCPgwYYaY1t
+2023-09-07 15:17:30,079 - DEBUG - WebSocket closed
+2023-09-07 15:17:33,734 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 0.00ms
+2023-09-07 15:17:33,735 - DEBUG - WebSocket opened
+2023-09-07 15:17:33,736 - DEBUG - session id: hM5pOCmMMRyhKYSgIGjE4iKj
+2023-09-07 15:24:27,561 - DEBUG - Using proactor: IocpProactor
+2023-09-07 15:24:34,056 - INFO - 304 GET / (192.168.21.125) 2.00ms
+2023-09-07 15:24:34,221 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:24:34,221 - DEBUG - WebSocket opened
+2023-09-07 15:24:34,223 - DEBUG - session id: 88nJO3zPzcnxgsACn2u97eFS
+2023-09-07 15:24:34,225 - ERROR - Unhandled error in pywebio app
+Traceback (most recent call last):
+  File "D:\env\form_yiban\lib\site-packages\pywebio\session\threadbased.py", line 86, in main_task
+    target()
+  File "D:\project\易班\易班项目\开学表单轻量级应用\form_service.py", line 62, in appointment_form
+    start_server(main, static_files={'/static/custom_footer.html': custom_html_file})
+NameError: name 'main' is not defined
+2023-09-07 15:24:34,872 - DEBUG - WebSocket closed
+2023-09-07 15:24:39,622 - INFO - 304 GET / (192.168.21.125) 0.00ms
+2023-09-07 15:24:39,731 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 0.00ms
+2023-09-07 15:24:39,731 - DEBUG - WebSocket opened
+2023-09-07 15:24:39,732 - DEBUG - session id: 3xSfFzXvfYEwRbhAzKv9xPFl
+2023-09-07 15:24:39,734 - ERROR - Unhandled error in pywebio app
+Traceback (most recent call last):
+  File "D:\env\form_yiban\lib\site-packages\pywebio\session\threadbased.py", line 86, in main_task
+    target()
+  File "D:\project\易班\易班项目\开学表单轻量级应用\form_service.py", line 62, in appointment_form
+    start_server(main, static_files={'/static/custom_footer.html': custom_html_file})
+NameError: name 'main' is not defined
+2023-09-07 15:24:39,799 - DEBUG - WebSocket closed
+2023-09-07 15:24:41,688 - INFO - 304 GET / (192.168.21.125) 1.00ms
+2023-09-07 15:24:41,976 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 0.00ms
+2023-09-07 15:24:41,977 - DEBUG - WebSocket opened
+2023-09-07 15:24:41,978 - DEBUG - session id: NW1nkp00x1ZDmK5dqCdIDzdP
+2023-09-07 15:24:41,980 - ERROR - Unhandled error in pywebio app
+Traceback (most recent call last):
+  File "D:\env\form_yiban\lib\site-packages\pywebio\session\threadbased.py", line 86, in main_task
+    target()
+  File "D:\project\易班\易班项目\开学表单轻量级应用\form_service.py", line 62, in appointment_form
+    start_server(main, static_files={'/static/custom_footer.html': custom_html_file})
+NameError: name 'main' is not defined
+2023-09-07 15:24:42,638 - DEBUG - WebSocket closed
+2023-09-07 15:25:47,020 - INFO - 304 GET / (192.168.21.125) 1.00ms
+2023-09-07 15:25:47,226 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:25:47,227 - DEBUG - WebSocket opened
+2023-09-07 15:25:47,228 - DEBUG - session id: lJyDq5Ly6ulHr0Tpy9eFcJD2
+2023-09-07 15:25:47,230 - ERROR - Unhandled error in pywebio app
+Traceback (most recent call last):
+  File "D:\env\form_yiban\lib\site-packages\pywebio\session\threadbased.py", line 86, in main_task
+    target()
+  File "D:\project\易班\易班项目\开学表单轻量级应用\form_service.py", line 62, in appointment_form
+NameError: name 'main' is not defined
+2023-09-07 15:25:47,813 - DEBUG - WebSocket closed
+2023-09-07 15:25:50,871 - DEBUG - Using proactor: IocpProactor
+2023-09-07 15:25:52,154 - INFO - 304 GET / (192.168.21.125) 1.00ms
+2023-09-07 15:25:52,315 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:25:52,316 - DEBUG - WebSocket opened
+2023-09-07 15:25:52,318 - DEBUG - session id: 7phFRHUwgZZWIWL9FlqCeTkU
+2023-09-07 15:26:08,780 - INFO - {'campus': '江湾校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}
+2023-09-07 15:26:08,781 - INFO - {'江湾校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班'}
+2023-09-07 15:26:08,781 - INFO - [{'campus': '江湾校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}]
+2023-09-07 15:26:08,782 - DEBUG - WebSocket closed
+2023-09-07 15:26:16,531 - INFO - 304 GET / (192.168.21.125) 0.98ms
+2023-09-07 15:26:17,085 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:26:17,085 - DEBUG - WebSocket opened
+2023-09-07 15:26:17,086 - DEBUG - session id: mlZYBnTnpnCADQYtnB8Ionzc
+2023-09-07 15:27:28,991 - INFO - {'campus': '仙溪校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}
+2023-09-07 15:27:28,992 - INFO - {'江湾校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班', '仙溪校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班'}
+2023-09-07 15:27:28,992 - INFO - [{'campus': '江湾校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '仙溪校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}]
+2023-09-07 15:27:28,993 - DEBUG - WebSocket closed
+2023-09-07 15:27:42,918 - INFO - 304 GET / (192.168.21.125) 0.92ms
+2023-09-07 15:27:43,316 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:27:43,316 - DEBUG - WebSocket opened
+2023-09-07 15:27:43,317 - DEBUG - session id: gZqVKCjC5T3g3C1k9px3ANs2
+2023-09-07 15:27:52,150 - INFO - {'campus': '江湾校区', 'date_range': '2023-09-15', 'time_step': '15:00—15:30', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}
+2023-09-07 15:27:52,150 - INFO - {'江湾校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班', '仙溪校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班', '江湾校区 2023-09-15 15:00—15:30': '数据与大数据学院21数据科学与大数据2班'}
+2023-09-07 15:27:52,150 - INFO - [{'campus': '江湾校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '仙溪校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '江湾校区', 'date_range': '2023-09-15', 'time_step': '15:00—15:30', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}]
+2023-09-07 15:27:52,151 - DEBUG - WebSocket closed
+2023-09-07 15:28:52,094 - INFO - 304 GET / (192.168.21.125) 1.00ms
+2023-09-07 15:28:52,285 - INFO - 101 GET /?app=index&session=NEW (192.168.21.125) 1.00ms
+2023-09-07 15:28:52,285 - DEBUG - WebSocket opened
+2023-09-07 15:28:52,286 - DEBUG - session id: xE4kFhNssevYaODUvMrIq1R9
+2023-09-07 15:29:24,673 - INFO - {'campus': '江湾校区', 'date_range': '2023-09-16', 'time_step': '14:30—15:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}
+2023-09-07 15:29:24,673 - INFO - {'江湾校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班', '仙溪校区 2023-09-23 13:30—14:00': '数据与大数据学院21数据科学与大数据2班', '江湾校区 2023-09-15 15:00—15:30': '数据与大数据学院21数据科学与大数据2班', '江湾校区 2023-09-16 14:30—15:00': '数据与大数据学院21数据科学与大数据2班'}
+2023-09-07 15:29:24,673 - INFO - [{'campus': '江湾校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '仙溪校区', 'date_range': '2023-09-23', 'time_step': '13:30—14:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '江湾校区', 'date_range': '2023-09-15', 'time_step': '15:00—15:30', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}, {'campus': '江湾校区', 'date_range': '2023-09-16', 'time_step': '14:30—15:00', 'class': '数据与大数据学院21数据科学与大数据2班', 'contact': '13431877826'}]
+2023-09-07 15:29:24,675 - DEBUG - WebSocket closed
