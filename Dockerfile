@@ -1,12 +1,11 @@
-FROM python:3.7
+FROM python:3.9
 
 # 设置 python 环境变量
 ENV PYTHONUNBUFFERED 1
 
 # 这两行是在系统钟安装了MySQL的连接器
 # updata太慢 设置镜像源
-RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
-&& apt-get clean  \
+RUN apt-get clean  \
     && apt-get update  \
     && apt-get install python3-dev default-libmysqlclient-dev -y
 
@@ -21,4 +20,7 @@ RUN  pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple &&
 # 将当前目录复制到容器的 code 目录
 ADD . /code/
 
-RUN
+# 运行服务
+EXPOSE 9000
+CMD  ["python", "form_service.py"]
+

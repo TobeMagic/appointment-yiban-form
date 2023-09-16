@@ -11,13 +11,15 @@
 
 from datetime import datetime, timedelta
 import pywebio
-from pywebio import start_server
+# from pywebio import start_server
 from pywebio.input import *
 from pywebio.output import *
 from pywebio.session import *
 import pandas as pd
 import logging
 import csv
+from pywebio.platform.flask import start_server
+
 
 # 配置日志记录器
 logging.basicConfig(filename='form.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -71,9 +73,9 @@ def appointment_form():
         # 将预约信息存储到已预约的时间段中
         step = f"{data['campus']} {data['date_range']} {data['time_step']}"
         reserved_slots[step] = data['class']
-        with open("./form_data.csv") as f:
+        with open("form_data.csv", mode="a") as f:
             writer = csv.writer(f)  # todo unittest
-            writer.writerow([data['i'] for i in data.keys()])  # 动态写入
+            writer.writerow([data[i] for i in data.keys()])  # 动态写入
         form_data.append(data)
 
     data = input_group("预约表单", [
@@ -101,4 +103,4 @@ def appointment_form():
 
 if __name__ == '__main__':
     pywebio.config(title='易班预约系统', theme="minty")
-    start_server(appointment_form, port=8080)
+    start_server(appointment_form, port=9000,host="0.0.0.0",debug=True)

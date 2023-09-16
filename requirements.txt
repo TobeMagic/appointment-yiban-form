@@ -8,3 +8,4 @@ tornado==6.3.3
 tzdata==2023.3
 ua-parser==0.18.0
 user-agents==2.2.0
+flask>=0.10
